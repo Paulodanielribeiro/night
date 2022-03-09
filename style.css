@@ -1,8 +1,48 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "title";
+  src: url(./fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "regular";
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+body{
+  margin: 0;
+}
+
+#container{
+  margin: 30px auto;
+  width: 60%;
+}
+
+h1{
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: "title";
+}
+
+#task-form{
+  text-align: center;
+  margin-bottom: 20px;
+}
+#task-description{
+  border: none;
+  border-bottom: 2px solid #aaa;
+  outline: none;
+  padding: 0 10px;
+  width: 60%;
+  margin-right: 10px;
+  font-family: "regular";
+  text-align: center;
+}
+
+#task-form button{
+  border: none;
+  background-color: darkcyan;
+  color: darkred;
+  font-family: "title";
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
