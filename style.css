@@ -46,3 +46,29 @@ h1{
   border-radius: 5px;
   cursor: pointer;
 }
+
+#task-list-area{
+  padding-left: 10%;
+}
+#task-list{
+  font-family: "regular";
+}
+@media screen and (max-width:768px) {
+  #container{
+    width: 90%;
+    margin: 10px auto;
+  }
+  h1{
+    font-size: 130%;
+  }
+  #task-description{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+  }
+  
+  #task-list{
+    padding-left: 0;
+    font-size: 80%;
+  }
+}
